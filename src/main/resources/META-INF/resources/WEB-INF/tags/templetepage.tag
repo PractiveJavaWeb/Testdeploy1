@@ -8,7 +8,7 @@
 <head>
 <title>WELCOME TO ICSSE 2017</title>
 
-<link href="/resources/css/show_img.css" rel="stylesheet"
+<link href="<c:url value="css/show_img.css"/>" rel="stylesheet"
 	type="text/css" />
 
 <script type="text/javascript"
@@ -16,13 +16,13 @@
 <script src="<c:url value="/resources/js/Common.js" />" type="text/javascript"></script>
 <script src="<c:url value="/resources/js/PagingContent.js" />"
 	type="text/javascript"></script>
-<link rel="shortcut icon" type="image/png"
+<link rel="shortcut icon" type="/resources/image/png"
 	href="<c:url value="/resources/Resources/Imagephoto/logo.png"/>" />
 <link href="<c:url value="/resources/component/lightbox/css/lightbox.css"/>"
 	rel="stylesheet" type="text/css" />
 <script src="<c:url value="/resources/component/lightbox/js/lightbox.min.js"/>"
 	type="text/javascript"></script>
-<link href="/resources/css/search_Article.css" rel="stylesheet" />
+<link href="<c:url value="/resources/css/search_Article.css"/>" rel="stylesheet" />
 <script language="javascript" type="text/javascript">
 	function SearchProcess(event) {
 		if (event.keyCode == 13) {
@@ -108,19 +108,15 @@
 
 
 <link
-	href="<c:url value = "/resources/css/WebResource35b9.css"/>"
+	href="<c:url value = "/resources/css/WebResource35b9.css"/>?d=QGz0EVx6KnXd0XFNz6_h8xNXGaTBbw0tdFlEudQ7cm-OthWnn6Dm_5tU0MRnaGIhZBbRg9S7WqTpHMZa1xNtEI0ab6Kl1IPnRi5TjbKoJFbytbX9TFl44EGYy--GyfelKV3DXQ2&amp;t=636040235083572431"
 	type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
 
 	<link
-	href="<c:url value = "/resources/css/WebResourceb3b4.css"/>"
+	href="<c:url value = "/resources/css/WebResourceb3b4.css"/>?d=x4growm4tE1xfqgq7CUmVsUnI-CbXa2N-c2_fNRwnEpvDP0BV-wXVIwtg-UArpbb2CDL-uqyWHg0pIMI2IqW_DG9HsBwwwsOkPeV5QgKyY9Yh5O4O982ECGyV1iNUPf_9TfsdN6N5kUDZgz-JeRM7Yx1qwU1&amp;t=636040235083572431"
 	type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
 <link
-	href="<c:url value="/resources/css/WebResourcee0ee.css"/>"
+	href="<c:url value="/resources/css/WebResourcee0ee.css"/>?d=ytD-yNU6w7OB5aQbpzdcKJJ4smWyZMrK26w2o8npDQvDJ2icAgnw46NhWNMATnygLURPdF6r1twj4HqvCpovy2cbE23Jpa5bO0SD9RAs5_bYKKb1dSU8kaK__zLNU1OzkJIV0Q2&amp;t=636040235083572431"
 	type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-	
-	<link href="/resources/assets/WebResource.axd" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-	<link href="/resources/assets/WebResource2.axd" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-	<link href="/resources/assets/WebResource5.axd" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
 </head>
 <body class="body" onload='popunder();'>
 
@@ -136,86 +132,129 @@
 				value="/wEPaA8FDzhkNDcwM2E4MmIzZTg1NxgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgURUmFkV2luZG93TWFuYWdlcjEFOmN0bDA2JHBvcnRsZXRfODAwODg2YTgtY2NiNS00MGRkLTgxM2EtMmMwMmFjMGQyZTkyJFJhZE1lbnWWq04WBGWRJGLcOwi3PFP5x9B5Cw==" />
 		</div>
 
-		<script src="/resources/assets/WebResource9.axd" type="text/javascript"></script>
-		
-	<script src="/resources/assets/Telerik.Web.UI.WebResource.axd" type="text/javascript"></script>
-	<script type="text/javascript">
-		//<![CDATA[
-		if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
-		//]]>
-	</script>
+		<script type="text/javascript">
+			//<![CDATA[
+			var theForm = document.forms['form1'];
+			if (!theForm) {
+				theForm = document.form1;
+			}
+			function __doPostBack(eventTarget, eventArgument) {
+				if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+					theForm.__EVENTTARGET.value = eventTarget;
+					theForm.__EVENTARGUMENT.value = eventArgument;
+					theForm.submit();
+				}
+			}
+			//]]>
+		</script>
 
-	<script src="/resources/Services/PortletProxy.asmx/jsdebug.js" type="text/javascript"></script>
-	<script src="/resources/Services/ModuleProxy.asmx/jsdebug.js" type="text/javascript"></script>
-	<script src="/resources/Services/CMS.asmx/jsdebug.js" type="text/javascript"></script>
-	<script src="/resources/Services/WeatherService.asmx/jsdebug.js" type="text/javascript"></script>
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
-    <div id="RadWindowManager1" style="display:none;">
-		<!-- 2011.1.315.35 -->
-		<div id="RadWindowManager1_alerttemplate" style="display:none;">
-			<div class="rwDialogPopup radalert">			
-				<div class="rwDialogText">
-				{1}				
-				</div>
-				
-				<div>
-					<a  onclick="$find('{0}').close(true);"
-					class="rwPopupButton" href="javascript:void(0);">
-						<span class="rwOuterSpan">
-							<span class="rwInnerSpan">##LOC[OK]##</span>
+
+		<script
+			src="<c:url value="/resources/js/WebResource9300.js"/>?d=m-BGqXLvdmxbkGKJ0cdC31IEEQSwl8M48qzhTdLsvA4cQATMbLAUn5HThStArYaMS9SVdQ3Idd2S2XYrPm7fUFdO8YM1&amp;t=635328605200000000"
+			type="text/javascript"></script>
+
+
+
+
+
+
+		<script src="<c:url value="/resources/js/Telerik.Web.UI.WebResource82d2.js"/>"
+			type="text/javascript"></script>
+		<script type="text/javascript">
+			//<![CDATA[
+			if (typeof (Sys) === 'undefined')
+				throw new Error(
+						'ASP.NET Ajax client-side framework failed to load.');
+			//]]>
+		</script>
+
+		<script src="<c:url value ="/resources/Services/PortletProxy.asmx/jsdebug.js"/>"
+			type="text/javascript"></script>
+		<script src="<c:url value = "/resources/Services/ModuleProxy.asmx/jsdebug.js"/>"
+			type="text/javascript"></script>
+		<script src="<c:url value = "/resources/Services/CMS.asmx/jsdebug.js"/>"
+			type="text/javascript"></script>
+		<script
+			src="<c:url value = "/resources/Services/WeatherService.asmx/jsdebug.js"/>"
+			type="text/javascript"></script>
+		<div>
+
+			<input type="hidden" name="__VIEWSTATEGENERATOR"
+				id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+		</div>
+		<div id="RadWindowManager1" style="display: none;">
+			<!-- 2011.1.315.35 -->
+			<div id="RadWindowManager1_alerttemplate" style="display: none;">
+				<div class="rwDialogPopup radalert">
+					<div class="rwDialogText">{1}</div>
+
+					<div>
+						<a onclick="$find('{0}').close(true);" class="rwPopupButton"
+							href="javascript:void(0);"> <span class="rwOuterSpan">
+								<span class="rwInnerSpan">##LOC[OK]##</span>
 						</span>
-					</a>				
+						</a>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div id="RadWindowManager1_prompttemplate" style="display:none;">
-			 <div class="rwDialogPopup radprompt">			
-					<div class="rwDialogText">
-					{1}				
-					</div>		
+			<div id="RadWindowManager1_prompttemplate" style="display: none;">
+				<div class="rwDialogPopup radprompt">
+					<div class="rwDialogText">{1}</div>
 					<div>
 						<script type="text/javascript">
-						function RadWindowprompt_detectenter(id, ev, input)
-						{							
-							if (!ev) ev = window.event;                
-							if (ev.keyCode == 13)
-							{															        
-								var but = input.parentNode.parentNode.getElementsByTagName("A")[0];					        
-								if (but)
-								{							
-									if (but.click) but.click();
-									else if (but.onclick)
-									{
-										but.focus(); var click = but.onclick; but.onclick = null; if (click) click.call(but);							 
+							function RadWindowprompt_detectenter(id, ev, input) {
+								if (!ev)
+									ev = window.event;
+								if (ev.keyCode == 13) {
+									var but = input.parentNode.parentNode
+											.getElementsByTagName("A")[0];
+									if (but) {
+										if (but.click)
+											but.click();
+										else if (but.onclick) {
+											but.focus();
+											var click = but.onclick;
+											but.onclick = null;
+											if (click)
+												click.call(but);
+										}
 									}
-								}
-							   return false;
-							} 
-							else return true;
-						}	 
+									return false;
+								} else
+									return true;
+							}
 						</script>
-						<input title="Eneter Value" onkeydown="return RadWindowprompt_detectenter('{0}', event, this);" type="text"  class="rwDialogInput" value="{2}" />
+						<input title="Eneter Value"
+							onkeydown="return RadWindowprompt_detectenter('{0}', event, this);"
+							type="text" class="rwDialogInput" value="{2}" />
 					</div>
 					<div>
-						<a onclick="$find('{0}').close(this.parentNode.parentNode.getElementsByTagName('input')[0].value);"				
-							class="rwPopupButton" href="javascript:void(0);" ><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[OK]##</span></span></a>
-						<a onclick="$find('{0}').close(null);" class="rwPopupButton"  href="javascript:void(0);"><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[Cancel]##</span></span></a>
+						<a
+							onclick="$find('{0}').close(this.parentNode.parentNode.getElementsByTagName('input')[0].value);"
+							class="rwPopupButton" href="javascript:void(0);"><span
+							class="rwOuterSpan"><span class="rwInnerSpan">##LOC[OK]##</span></span></a>
+						<a onclick="$find('{0}').close(null);" class="rwPopupButton"
+							href="javascript:void(0);"><span class="rwOuterSpan"><span
+								class="rwInnerSpan">##LOC[Cancel]##</span></span></a>
 					</div>
-				</div>				       
-		</div>
-		<div id="RadWindowManager1_confirmtemplate" style="display:none;">
-			<div class="rwDialogPopup radconfirm">			
-				<div class="rwDialogText">
-				{1}				
-				</div>						
-				<div>
-					<a onclick="$find('{0}').close(true);"  class="rwPopupButton" href="javascript:void(0);" ><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[OK]##</span></span></a>
-					<a onclick="$find('{0}').close(false);" class="rwPopupButton"  href="javascript:void(0);"><span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[Cancel]##</span></span></a>
 				</div>
-			</div>		
+			</div>
+			<div id="RadWindowManager1_confirmtemplate" style="display: none;">
+				<div class="rwDialogPopup radconfirm">
+					<div class="rwDialogText">{1}</div>
+					<div>
+						<a onclick="$find('{0}').close(true);" class="rwPopupButton"
+							href="javascript:void(0);"><span class="rwOuterSpan"><span
+								class="rwInnerSpan">##LOC[OK]##</span></span></a> <a
+							onclick="$find('{0}').close(false);" class="rwPopupButton"
+							href="javascript:void(0);"><span class="rwOuterSpan"><span
+								class="rwInnerSpan">##LOC[Cancel]##</span></span></a>
+					</div>
+				</div>
+			</div>
+			<input id="RadWindowManager1_ClientState"
+				name="RadWindowManager1_ClientState" type="hidden" />
 		</div>
-		<input id="RadWindowManager1_ClientState" name="RadWindowManager1_ClientState" type="hidden" />
-	</div>
 		<script type="text/javascript">
 			//<![CDATA[
 			Sys.WebForms.PageRequestManager._initialize('RadScriptManager1',
@@ -225,7 +264,7 @@
 
 
 		<link
-			href="/resources/Resources/ImagesPortal/PhongBan/main.css"
+			href="<c:url value = "/resources/Resources/ImagesPortal/PhongBan/main.css"/>"
 			rel="stylesheet" />
 		<link href="<c:url value = "/resources/css/mainPortlets.css"/>" rel="stylesheet" />
 		<script language="javascript" type="text/javascript">
@@ -255,16 +294,16 @@
 				style="border-collapse: collapse;">
 				<tr>
 					<td colspan="2"><div id="pnTop">
-							<div id="pnTopDisplay" style="width: 100%; float: left">
+							<div id="pnTopDisplay" style="width: 1000px; float: left">
 								<div id='ctl06_portlet_83a3e05a-eb99-4512-bd1a-5af90706fcf3'
-									style="width:70%; float: left">
+									style="width: 574px; float: left">
 									<div>
 										<div class="P_top">
 											<div class="P_logo">
 												<div class="anh_logo">
 													<img alt=""
-														src="<c:url value = "/resources/Resources/Images/SubDomain/icsse2017/Banner_Hoi_nghi_quoc_te_sua.jpg"/>"
-														style="width: auto; height: 188px;" /><br />
+														src="<c:url value = "/resources/Resources/Images/SubDomain/icsse2017/Banner%20Hoi%20nghi%20quoc%20te%20sua.jpg"/>"
+														style="width: 800px; height: 188px;" /><br />
 												</div>
 												<div class="name_ute"></div>
 											</div>
@@ -273,7 +312,7 @@
 									</div>
 								</div>
 								<div id='ctl06_portlet_6299a742-1878-4325-8536-4faefa3c1b4c'
-									style="width: 30%; float: right">
+									style="width: 199px; float: right">
 									<div>
 										<div class="search_phong">
 											<input class="bgsearch_phong" id="txtSearchArticle"
@@ -289,7 +328,7 @@
 									</div>
 								</div>
 								<div id='ctl06_portlet_e28a24d5-befe-4213-a3d5-2e1ebcb2a71e'
-									style="width: 100%; float: left">
+									style="width: 1000px; float: left">
 									<div>
 
 										<link
@@ -310,11 +349,11 @@
 												<div id="slider" class="nivoSlider">
 
 													<a href="#" target="_blank"> <img
-														src="<c:url value = "/resources/Resources/imagesPortlet/hnqt/HNQT3.jpg"/>"
+														src="<c:url value = "/resources/Resources/imagesPortlet/e28a24d5-befe-4213-a3d5-2e1ebcb2a71e/HNQT3.jpg"/>"
 														title="" /></a> <a href="#" target="_blank"> <img
-														src="<c:url value = "/resources/Resources/imagesPortlet/hnqt/HNQT2.jpg"/>"
+														src="<c:url value = "/resources/Resources/imagesPortlet/e28a24d5-befe-4213-a3d5-2e1ebcb2a71e/HNQT2.jpg"/>"
 														title="" /></a> <a href="#" target="_blank"> <img
-														src="<c:url value = "/resources/Resources/imagesPortlet/hnqt/HNQT1.jpg"/>"
+														src="<c:url value = "/resources/Resources/imagesPortlet/e28a24d5-befe-4213-a3d5-2e1ebcb2a71e/HNQT1.jpg"/>"
 														title="" /></a>
 
 												</div>
@@ -366,8 +405,8 @@
 										</script>
 									</div>
 								</div>
-								<div id='ctl06_portlet'
-									style="padding: 10px 0px 0px 0px; width: 100%; float: left">
+								<div id='ctl06_portlet_800886a8-ccb5-40dd-813a-2c02ac0d2e92'
+									style="padding: 10px 0px 0px 0px; width: 1000px; float: left">
 									<div>
 
 										<link
@@ -379,76 +418,52 @@
 											style="height: 40px; z-index: 1; width: 100%;">
 											<ul class="rmRootGroup rmHorizontal">
 												<li class="rmItem rmFirst"><a
-													href="<c:url value="/${19}"/>"
+													href="<c:url value="/home_page"/>"
 													class="rmLink rmRootLink"><span class="rmText">Home</span></a></li>
-												<li class="rmItem " style="z-index: 0;">
-												<a href="Portlets/MenuRad/#" class="rmLink rmRootLink">
-													<span class="rmText rmExpandDown">About</span>
-												</a>
-												<div class="rmSlide" style="visibility: visible; height: 102px; width: 139px; display: none; overflow: hidden; left: 0px; top: 40px; z-index: 10;">
-													<ul class="rmVertical rmGroup rmLevel1" style="display: block; top: -102px; left: 0px; visibility: visible;">
-														<li class="rmItem rmFirst">
-															<a href="/${2}" class="rmLink" style="width: 139px;">
-																<span class="rmText">icsse</span>
-															</a>
-														</li>
-														<li class="rmItem ">
-															<a href="/${3}" class="rmLink" style="width: 139px;">
-																<span class="rmText">HCMUTE</span>
-															</a>
-														</li>
-														<li class="rmItem rmLast">
-															<a href="/${4}" class="rmLink" style="width: 139px;">
-																<span class="rmText">Committees</span>
-															</a>
-														</li>
-													</ul>
-												</div>
-											</li>
 												<li class="rmItem "><a
-													href="<c:url value="/${10}"/>"
+													href="/resources/Portlets/MenuRad/index.html#"
+													class="rmLink rmRootLink"><span class="rmText">About</span></a>
+													<div class="rmSlide">
+														<ul class="rmVertical rmGroup rmLevel1">
+															<li class="rmItem rmFirst"><a
+																href="Default50b6.html?ArticleId=f9111384-c9ad-46ac-ba10-037bf3d691a4"
+																class="rmLink"><span class="rmText">icsse</span></a></li>
+															<li class="rmItem "><a
+																href="Default093c.html?ArticleId=c8018710-9562-44c6-bef0-2a0f22e73f6b"
+																class="rmLink"><span class="rmText">HCMUTE</span></a></li>
+															<li class="rmItem rmLast"><a
+																href="Default816d.html?ArticleId=dd21088d-cb55-4f9d-ac9c-73553c715cae"
+																class="rmLink"><span class="rmText">Committees</span></a></li>
+														</ul>
+													</div></li>
+												<li class="rmItem "><a
+													href="<c:url value="/callpaper"/>"
 													class="rmLink rmRootLink"><span class="rmText">Call
 															for papers</span></a></li>
 												<li class="rmItem "><a
-													href="<c:url value="/${15}"/>"
+													href="<c:url value="/submission"/>"
 													class="rmLink rmRootLink"><span class="rmText">Submission</span></a></li>
 												<li class="rmItem "><a
-													href="<c:url value="/${16}"/>"
+													href="<c:url value="/registation"/>"
 													class="rmLink rmRootLink"><span class="rmText">Registration</span></a></li>
 												<li class="rmItem "><a
-													href="<c:url value="/${17}" />"
+													href="<c:url value="/keynotespeaker" />"
 													class="rmLink rmRootLink"><span class="rmText">Keynote
 															Speakers</span></a></li>
 												<li class="rmItem "><a
 													
-													class="rmLink rmRootLink" href="#"><span class="rmText">Program</span></a></li>
+													class="rmLink rmRootLink"><span class="rmText">Program</span></a></li>
 												<li class="rmItem "><a
-													href="<c:url value="/${18}"/>"
+													href="<c:url value="/venuehotel"/>"
 													class="rmLink rmRootLink"><span class="rmText">Venue
 															& Hotel</span></a></li>
 												<li class="rmItem rmLast"><a
-													href="<c:url value="/${20 }"/>" class="rmLink rmRootLink"><span
+													href="<c:url value="/contact"/>" class="rmLink rmRootLink"><span
 														class="rmText">Contact</span></a></li>
-												<li class="rmItem rmLast"><a
-													href="javascript: phituocEdtOnClick();" class="rmLink rmRootLink"><span
-														class="rmText">Edit</span></a>
-												<script>
-													function phituocEdtOnClick(){
-														var a = document.getElementById('edtpage');
-														a.click();
-													}
-												</script>		
-														</li>
-												<li class="rmItem rmLast"><a
-													href="javascript: phituocAddOnClick();" class="rmLink rmRootLink"><span
-														class="rmText">Add Document</span></a>
-												<script>
-													function phituocAddOnClick(){
-														var a = document.getElementById('adddoc');
-														a.click();
-													}
-												</script>		
-												</li>
+														<li class="rmItem rmLast"><a
+													href="<c:url value="/admin"/>" class="rmLink rmRootLink"><span
+														class="rmText">Edit</span></a></li>
+												
 											</ul>
 											<input
 												id="ctl06_portlet_800886a8-ccb5-40dd-813a-2c02ac0d2e92_RadMenu_ClientState"
@@ -465,8 +480,8 @@
 
 				<tr valign="top">
 
-					<td class="col-md-9" >
-							<div id="pnCenterDisplay"   ><div id="pnCenter">
+					<td><div id="pnCenter">
+							<div id="pnCenterDisplay" style="width: 692px; float: left">
 
 								<jsp:doBody />
 
@@ -474,95 +489,14 @@
 
 
 						</div></td>
+
 					</td>
-					<td class="col-md-3">
-					<div id="pnRight">
-							<div id="pnRightDisplay" >
-								<div id='ctl06_portlet_b633be64-8363-4e53-9952-6acf34d3e9e9'
-									style="float: left;">
-									<div>
-
-										<style type="text/css">
-</style>
-										<div class="thongbao_phong">
-											<div class="topictb_phong_blue">
-												<h3>Latest news
-												<span><a href="/edit-webpage-${1001}" class="rmLink" style="width: auto; background-color : grey; color: inherit;" id="news">Edit</a></span>
-												</h3>
-												
-												<a class="wobble-horizontal"
-													href="indexc059.html?TopicId=31ca0f13-71be-4bd9-ad28-d3589a3cf6d2">
-													<img
-													src="/resources/Resources/ImagesPortal/PhongBan/arrow_all_phong.png">
-												</a>
-											</div>
-											<div class="listtb_phong">
-												${news.content}
-											</div>
-											<!--end listtb_phong-->
-										</div>
-
-									</div>
-								</div>
-								<div id='ctl06_portlet_9d945843-6c22-4daf-9b88-835da3891673'
-									style="float: left">
-									<div>
-										<table>
-											<tbody>
-												<tr>
-													<td
-														style="text-align: left; width: 350px; height: 40px; vertical-align: middle; background-color: #ff0000;">&nbsp;<span
-														style="font-size: 20px; color: #ffff00;"><strong>IMPORTANT
-																DEADLINES</strong></span>
-														<span><a href="/edit-webpage-${1002}" class="rmLink" style="width: auto; background-color : grey; color: inherit;" id="news">Edit</a></span>
-														</td>
-												</tr>
-											</tbody>
-										</table>
-											${deadlines.content}
-										
-									</div>
-								</div>
-								<div id='ctl06_portlet_553574d9-9245-4da8-a214-baf51898689a'
-									style="float: left;">
-									<div>
-										<table>
-											<tbody>
-												<tr>
-													<td
-														style="width: 350px; height: 40px; background-color: #92d050;"><strong><span><span
-																style="font-size: 20px; color: #c00000;">SPECIAL
-																	SESSION</span><br /> </span></strong>
-									<span><a href="/edit-webpage-${1003}" class="rmLink" style="width: auto; background-color : grey; color: inherit;" id="news">Edit</a></span>
-												</tr>
-											</tbody>
-										</table>
-											${special.content}
-									
-
-									</div>
-								</div>
-								<div id='ctl06_portlet_78439b67-a318-4ced-ac29-33d02da2a0fb'
-									style="float: left;">
-									<div>
-										<table>
-											<tbody>
-												<tr>
-													<td
-														style="text-align: left; width: 350px; vertical-align: middle; height: 40px; background-color: #002060;">&nbsp;<span
-														style="font-size: 20px; color: #ffff00;"><strong>KEY
-																LINKS</strong></span>
-									<span><a href="/edit-webpage-${1004}" class="rmLink" style="width: auto; background-color : grey; color: inherit;" id="news">Edit</a></span>
-												</tr>
-											</tbody>
-										</table>
-										${key.content }
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</td>
+					<td><div id="pnRight">
+							<!-- Comment -->
+							<div id="pnRightDisplay" style="float:left; padding:0px 0px 0px 6px; width:300px">
+							 ${slidebar.content}
+							 </div>
+						</div></td>
 				</tr>
 				<!-- end of header -->
 				<!-- body -->
@@ -575,7 +509,7 @@
 				<tr>
 					<td colspan="2"><div id="pnBottom">
 							<div id="pnBottomDisplay"
-								style="clear: both; background: url(/resources/Resources/ImagesPortal/PhongBan/bgfooter_phong.png) repeat-x; width: 100%; height: 110px;">
+								style="clear: both; background: url(Resources/ImagesPortal/PhongBan/bgfooter_phong.png) repeat-x; width: 1000px; height: 110px;">
 								<div id='ctl06_portlet_5c231c9e-b9b3-474f-bb01-834b95465666'
 									style="float: right">
 									<div>
@@ -638,34 +572,56 @@
 					.add_init(function() {
 						$create(
 								Telerik.Web.UI.RadMenu,
-								 {"_childListElementCssClass":null,
-									"_skin":"Green",
-									"attributes":{},
-									"clientStateFieldID":"ctl06_portlet_800886a8-ccb5-40dd-813a-2c02ac0d2e92_RadMenu_ClientState",
-									"collapseAnimation":"{\"duration\":450}",
-									"expandAnimation":"{\"duration\":450}",
+								{
+									"_childListElementCssClass" : null,
+									"_skin" : "Green",
+									"attributes" : {},
+									"clientStateFieldID" : "ctl06_portlet_800886a8-ccb5-40dd-813a-2c02ac0d2e92_RadMenu_ClientState",
+									"collapseAnimation" : "{\"duration\":450}",
+									"expandAnimation" : "{\"duration\":450}",
 									"itemData" : [
-												{"navigateUrl":"~/home_page"},
-												{"items":[
-														{"navigateUrl":"~/?Id=2"},
-														{"navigateUrl":"~/?Id=3"},
-														{"navigateUrl":"~/?Id=4"}
-														],
-														"navigateUrl":"#"},
-												{"navigateUrl":"~/callpaper"},
-												{"navigateUrl":"~/submission"},
-												{"navigateUrl":"~/registation"},
-												{"navigateUrl":"~/keynotespeaker"},
-												{"navigateUrl":"#"},
-												{"navigateUrl":"/venuehotel"},
-												{"navigateUrl":"/contact"},
-												{"navigateUrl":""}
-												]},
-									 null,
-									 null,
-									 $get("ctl06_portlet"));
-										});
-							
+											{
+												"navigateUrl" : "~/Default.aspx?PageId=8cb7e0c5-10f3-438b-8881-a74c24b373e3"
+											},
+											{
+												"items" : [
+														{
+															"navigateUrl" : "~/Default.aspx?ArticleId=f9111384-c9ad-46ac-ba10-037bf3d691a4"
+														},
+														{
+															"navigateUrl" : "~/Default.aspx?ArticleId=c8018710-9562-44c6-bef0-2a0f22e73f6b"
+														},
+														{
+															"navigateUrl" : "~/Default.aspx?ArticleId=dd21088d-cb55-4f9d-ac9c-73553c715cae"
+														} ],
+												"navigateUrl" : "#"
+											},
+											{
+												"navigateUrl" : "~/Default.aspx?ArticleId=fc8c1223-a9d2-46b5-9db3-665c778f0ac9"
+											},
+											{
+												"navigateUrl" : "~/Default.aspx?ArticleId=945864b5-165f-45a3-8e75-a9ba5ac1f9ef"
+											},
+											{
+												"navigateUrl" : "~/Default.aspx?ArticleId=707e0e24-5220-4821-a40f-4041eb76cc1a"
+											},
+											{
+												"navigateUrl" : "~/Default.aspx?ArticleId=be204435-0615-4fc3-aa86-392d871decc8"
+											},
+											{
+												"navigateUrl" : "#"
+											},
+											{
+												"navigateUrl" : "#"
+											},
+											{
+												"navigateUrl" : "~/Default.aspx?ArticleId=b4031ebe-e802-4402-a49a-5769943872a5"
+											} ]
+								},
+								null,
+								null,
+								$get("ctl06_portlet_800886a8-ccb5-40dd-813a-2c02ac0d2e92_RadMenu"));
+					});
 			//]]>
 		</script>
 	</form>
